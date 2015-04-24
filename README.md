@@ -7,6 +7,10 @@ with the 'R.txt' format used in Android archive (.aar) files.
 
     Usage: extractar <classpath-directory-or-jar> <fully-qualified-name-of-R-class>
 
+> **WARNING:** This tool loads and initializes the target 'R' class (which means that
+it executes untrusted code) without sandboxing it. A rogue class can attack you.
+Decompile and analyze the class or drop privileges before invoking this tool.
+
 Visit the XDA thread for details:
 http://forum.xda-developers.com/showthread.php?t=3060854
 
