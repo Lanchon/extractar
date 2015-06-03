@@ -1,4 +1,7 @@
 # ExtractAR
+
+> #### DEPRECATED: This tool has been discontinued: its functionality was not needed to implement the soon-to-be-released DexPatcher gradle-based toolchain.
+
 ### Extract Android 'R.txt' resource list
 
 This tool extracts an 'R.txt'-style resource list from a compiled Android application.
